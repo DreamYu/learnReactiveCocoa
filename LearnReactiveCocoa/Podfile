@@ -1,0 +1,8 @@
+target "LearnReactiveCocoa" do
+inhibit_all_warnings!
+pod 'ReactiveCocoa', '~> 2.5’
+pod 'Masonry', '~> 1.1.0c'
+pod 'SDWebImage', '~>3.8'
+end
+
+use_frameworks!

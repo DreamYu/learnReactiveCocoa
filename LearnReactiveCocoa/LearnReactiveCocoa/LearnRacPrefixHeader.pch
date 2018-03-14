@@ -1,0 +1,16 @@
+//
+//  LearnRacPrefixHeader.pch
+//  LearnReactiveCocoa
+//
+//  Created by Roy on 2018/3/8.
+//  Copyright © 2018年 Roy. All rights reserved.
+//
+
+#ifndef LearnRacPrefixHeader_pch
+#define LearnRacPrefixHeader_pch
+
+#import "CommonFileHeader.h"
+
+#define RWRandomColor [UIColor colorWithRed:arc4random() % 256 / 255.f green:arc4random() % 256 / 255.f blue:arc4random() % 256 / 255.f alpha:1]
+
+#endif /* LearnRacPrefixHeader_pch */
